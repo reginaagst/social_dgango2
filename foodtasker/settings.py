@@ -25,7 +25,7 @@ SECRET_KEY = '^5b5iah03gv@_x!d*9kvs56vhsp(x5v5y$4v(0(_v@wz3zj1ah'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['shrouded-atoll-33615.herokuapp.com']
 
 
 # Application definition
@@ -126,7 +126,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 LOGIN_REDIRECT_URL = '/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-MEDIA_URL = '/media/' 
+MEDIA_URL = '/media/'
 
 import dj_database_url
 db_from_env = dj_database_url.config()
